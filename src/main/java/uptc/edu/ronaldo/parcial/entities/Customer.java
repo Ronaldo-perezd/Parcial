@@ -12,7 +12,6 @@ public class Customer {
     private String name;
     private String email;
 
-    // Constructor
     public Customer() {}
 
     public Customer(String name, String email) {
@@ -20,7 +19,6 @@ public class Customer {
         this.email = email;
     }
 
-    // Getters y setters
     public Long getId() {
         return id;
     }
@@ -44,7 +42,5 @@ public class Customer {
     public void setEmail(String email) {
         this.email = email;
     }
-
-    // Implementa métodos de lectura, adición y eliminación de clientes según sea necesario
 }
 

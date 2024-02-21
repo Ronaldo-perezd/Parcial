@@ -6,6 +6,5 @@ import uptc.edu.ronaldo.parcial.entities.Product;
 
 @Repository
 public interface ProductRepository extends JpaRepository<Product, Long> {
-    // Puedes agregar métodos adicionales de consulta si es necesario
 }
 

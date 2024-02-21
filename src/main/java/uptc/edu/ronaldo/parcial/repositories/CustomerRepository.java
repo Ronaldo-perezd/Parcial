@@ -6,5 +6,4 @@ import uptc.edu.ronaldo.parcial.entities.Customer;
 
 @Repository
 public interface CustomerRepository extends JpaRepository<Customer, Long> {
-    // Puedes agregar métodos adicionales de consulta si es necesario
 }

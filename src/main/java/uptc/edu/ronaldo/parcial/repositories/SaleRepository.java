@@ -6,5 +6,4 @@ import uptc.edu.ronaldo.parcial.entities.Sale;
 
 @Repository
 public interface SaleRepository extends JpaRepository<Sale, Long> {
-    // Puedes agregar métodos adicionales de consulta si es necesario
 }
